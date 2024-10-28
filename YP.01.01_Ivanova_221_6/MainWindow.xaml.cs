@@ -85,7 +85,7 @@ namespace YP._01._01_Ivanova_221_6
             if (saveFileDialog.ShowDialog() == true)
             {
                 string filePath = saveFileDialog.FileName;
-                string extension = System.IO.Path.GetExtension(filePath).ToLower(); // Используем System.IO.Path
+                string extension = System.IO.Path.GetExtension(filePath).ToLower();
 
                 switch (extension)
                 {
